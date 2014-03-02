@@ -9,7 +9,7 @@ import com.github.best.practices.patterns.strategy.SwordBehavior;
 import com.github.best.practices.patterns.strategy.WrestlingBehavior;
 import com.github.best.practices.patterns.strategy.Character;
 
-public class TestHobbit {
+public class HobbitTest {
 	@Test
 	public void testHobbitFightWithFists() {
 		WrestlingBehavior wrestling = new WrestlingBehavior();
