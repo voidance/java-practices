@@ -4,6 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 public class WebAltimeterDisplay implements Observer {
+	@SuppressWarnings("unused")
 	private Observable observable;
 	private int altitude;
 	
