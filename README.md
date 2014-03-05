@@ -7,6 +7,8 @@ Strategy:
 Observer: Java built in Observer use, note that you can choose between pull and push strategies.
 Decorator: For examples see LineNumberInputStream decorates BufferedInputStream decorates FileInputStream
 Command.
+Composite.
+Iterator.
 
 Patterns that won't be added
 Adapter. Converts one interface to another.

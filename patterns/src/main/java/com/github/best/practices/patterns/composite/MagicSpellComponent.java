@@ -1,5 +1,8 @@
 package com.github.best.practices.patterns.composite;
 
+import java.util.Iterator;
+
+/*Menu Component*/
 public abstract class MagicSpellComponent {
 	public void add(MagicSpellComponent magicSpellComponent) {
 		throw new UnsupportedOperationException();
@@ -24,4 +27,6 @@ public abstract class MagicSpellComponent {
 	public void print() {
 		throw new UnsupportedOperationException();
 	}
+	
+	public abstract Iterator<MagicSpellComponent>createIterator();
 }

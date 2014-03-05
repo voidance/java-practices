@@ -24,5 +24,7 @@ public class MageTest {
 		Mage mage = new Mage(allSpells);
 		mage.printMagicSpells();
 		//TODO do real testing
+		System.out.println("-----------------------");
+		mage.printAll();
 	}
 }
