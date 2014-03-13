@@ -9,6 +9,7 @@ Decorator: For examples see LineNumberInputStream decorates BufferedInputStream 
 Command.
 Composite.
 Iterator.
+State. Problem, all transitions are in all States.
 
 Patterns that won't be added
 Adapter. Converts one interface to another.
@@ -22,3 +23,4 @@ Abstract Factory.
 Command. Add undo, add null object.
 Description and uses of patterns.
 Composite pattern. Add real tests.
+State pattern. Add real tests.
